@@ -1,32 +1,78 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Visual Studio 관련 파일
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
 *.obj
+*.log
+*.tlb
+*.tlh
+*.tmp
+*.pdb
+*.cache
+*.ilk
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.tlog
+*.VC.db
+*.VC.VC.opendb
 
-# Precompiled Headers
-*.gch
-*.pch
+# 빌드 아티팩트
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+[Dd]ebugPublic/
+repro/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# CMake 관련
+CMakeSettings.json
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
 
-# Fortran module files
-*.mod
-*.smod
+# Test Results
+[Tt]est[Rr]esult*/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Package 관련
+*.nupkg
+*.snupkg
+*.swp
+*.swp~
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+*.err
 
-# Executables
-*.exe
-*.out
-*.app
+# Visual Studio Code
+.vscode/
+
+# Rider IDE
+.idea/
+
+# 기타
+*.class
+*.pyc
+*.pyo
+*.env
+*.DS_Store
+Thumbs.db
+
+# Unreal Engine 관련 (필요한 경우 추가)
+*.uproject.log
+*.sln.DotSettings
+DerivedDataCache/
+Intermediate/
+Saved/
+Config/DefaultEditorSettings.ini
